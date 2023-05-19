@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Task Manager</title>
+</head>
+
+<body>
+  <header class="header container">
+    <h1 class="header-title">Task Manager</h1>
+    <div class="displayItemsCompleted">
+      <div class="menu" onclick="openMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+      <div class="completedItems">
+        <h3 class="completedItems_title">Выполненные задачи</h3>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <div class="task_project_wrp">
+      <div class="createTask">
+        <label class="nameTask-txt" for="nameTask">
+          <p class="title-txt">Название:</p>
+          <input class="nameTask" type="text" name="" id="nameTask" placeholder="" />
+        </label>
+        <label class="descTask-txt" for="descTask">
+          <p class="title-txt">Описание:</p>
+          <input class="descTask" type="text" name="" id="descTask" placeholder="" />
+        </label>
+        <select class="fullNameSelect form-select form-select-sm" aria-label=".form-select-sm example"
+          name="fullNameSelect" id="fullNameSelect">
+          <option selected value="">Выберите ответственного</option>
+        </select>
+        <button class="btnAdd">Создать задачу</button>
+        <select class="projectsAll" name="projectsAll" id="projectsAll">
+          <option value="">Выберите проект</option>
+        </select>
+        <button class="btnAddTaskPorject">Добавить в проект</button>
+      </div>
+      <div class="project_wrp">
+        <div class="projects">
+          <div class="project_create">
+            <label class="titleProject" for="nameProject">
+              <p class="title-txt">Название:</p>
+              <input class="nameProject inputStyle" id="nameProject" type="text" />
+            </label>
+            <label class="titleProject" for="descProject">
+              <p class="title-txt">Описание:</p>
+              <input class="descProject descInput" id="descProject" type="text" />
+            </label>
+            <button class="btnaAdProject">Создать проект</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="task_project_wrp2 txt-style">
+      <div class="addTask">
+        <h2 class="title_wrp">Задачи</h2>
+      </div>
+      <div class="allProjects">
+        <h2 class="title_wrp">Проекты</h2>
+      </div>
+    </div>
+  </main>
+  <script src="main.js"></script>
+</body>
+
+</html>

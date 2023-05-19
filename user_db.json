@@ -1,0 +1,22 @@
+[
+    {
+        "fullName": "Hasanov Maxim Vladislavovich",
+        "DateOfBirth": "04/08/1997",
+        "phoneNumber": 79505223551
+    },
+    {
+        "fullName": "Cherepanov Oleg Sergeevich",
+        "DateOfBirth": "05/06/1990",
+        "phoneNumber": 83452688654
+    },
+    {
+        "fullName": "Medvedev Arkadiy Andreevich",
+        "DateOfBirth": "05/06/1965",
+        "phoneNumber": 83452635221
+    },
+    {
+        "fullName": "Putin Vladimir Vladimirovich",
+        "DateOfBirth": "01/07/1970",
+        "phoneNumber": 88005553525
+    }
+]
